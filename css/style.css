@@ -1,0 +1,123 @@
+.overview {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;      
+    /* border: 1px solid red;      */
+}
+
+.big-image-logo {
+    /* border-radius: 61% 39% 70% 30% / 41% 53% 47% 59% ; */
+    border-radius: 50%;
+    height: auto;
+    width: 70%;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.title-tech-stack {
+    /* background: #dcdbdb; */
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.steck-stack-logo-python {
+    max-width: 50%; 
+    height: auto;   
+}
+.steck-stack-logo-mysql {
+    max-width: 65%; 
+    height: auto;   
+}
+.steck-stack-logo-laravel {
+    max-width: 50%; 
+    height: auto;   
+}
+.steck-stack-logo-javascript {
+    max-width: 46%; 
+    height: auto;   
+}
+.steck-stack-logo-css-html {
+    max-width: 76%; 
+    height: auto;   
+}
+.steck-stack-logo-uipath {
+    max-width: 50%; 
+    height: auto;   
+}
+.steck-stack-logo-bootstrap {
+    max-width: 50%; 
+    height: auto;   
+}
+.steck-stack-logo-nodejs {
+    max-width: 73%; 
+    height: auto;   
+}
+.steck-stack-logo-git {
+    max-width: 50%; 
+    height: auto;   
+}
+.steck-stack-logo-api {
+    max-width: 60%; 
+    height: auto;   
+}
+.steck-stack-logo-bubble {
+    max-width: 93%; 
+    height: auto;   
+}
+.steck-stack-logo-wappler {
+    max-width: 53%; 
+    height: auto;   
+}
+.steck-stack-logo-sap-automation {
+    max-width: 53%; 
+    height: auto;   
+}
+.steck-stack-logo-openai {
+    max-width: 60%; 
+    height: auto;   
+}
+.steck-stack-logo-appscript {
+    max-width: 52%; 
+    height: auto;   
+}
+.steck-stack-logo-pm2 {
+    max-width: 64%; 
+    height: auto;   
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* .card {
+    max-height: 200px; 
+    overflow: hidden;
+    position: relative;
+}
+.card.expanded {
+    max-height: none;
+}
+.expand-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+} */
+
+@media screen and (max-width: 1200px){
+    .overview {
+        margin-top: 120px;
+    }
+}
